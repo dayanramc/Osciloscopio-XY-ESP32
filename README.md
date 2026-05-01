@@ -32,6 +32,18 @@ Esto permite controlar el movimiento del haz electrónico y dibujar figuras en p
 Se utilizó Arduino UNO en SimulIDE para simular el comportamiento del sistema, debido a la falta de soporte para ESP32 y DAC en dicho entorno.
 
 ---
+## Conclusiones
+
+Se logró implementar un sistema capaz de generar figuras en un osciloscopio en modo XY mediante el uso del ESP32, aprovechando sus salidas DAC para producir señales analógicas en los ejes X y Y.
+
+El uso de coordenadas permitió controlar con precisión la trayectoria del haz, demostrando la relación entre señales eléctricas y representación gráfica.
+
+Se evidenció que la velocidad de actualización de los puntos influye directamente en la calidad de la imagen, siendo necesario ajustar los tiempos para obtener una visualización estable.
+
+La simulación con Arduino UNO permitió validar el comportamiento general del sistema, aunque presentó limitaciones debido al uso de PWM en lugar de señales analógicas reales.
+
+Finalmente, la implementación en hardware real con ESP32 ofreció mejores resultados en estabilidad, precisión y calidad de la señal.
+---
 
 ## Autor
 
