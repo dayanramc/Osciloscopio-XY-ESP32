@@ -73,6 +73,9 @@ Los potenciómetros permiten modificar:
 ## Evidencia 
 Imagen de la simulacion 
 <img width="1230" height="1279" alt="image" src="https://github.com/user-attachments/assets/82815204-b2c2-4ddb-b92c-a37429e2cec4" />
+Imagen del osiloscopio
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/45a409f3-bdda-40c9-81bd-f7378aa95792" />
+<img width="3024" height="4032" alt="image" src="https://github.com/user-attachments/assets/d4869d40-2fa3-4415-930e-17b0e36f31f9" />
 
 
 ---
