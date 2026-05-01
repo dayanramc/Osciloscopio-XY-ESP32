@@ -71,10 +71,33 @@ Los potenciómetros permiten modificar:
 - Velocidad de trazado  
 
 ---
+ de trazado  
 
-## Código
+---
 
-```cpp
+## Código SIMULACION 
+
+
+const int X = 9;
+const int Y = 10;
+
+void setup() {
+  pinMode(X, OUTPUT);
+  pinMode(Y, OUTPUT);
+}
+
+void loop() {
+
+  for(int i=0;i<255;i++){
+    analogWrite(X,i);
+    analogWrite(Y,i);
+    delay(5);
+  }
+}
+
+## Código ESP32  
+
+
 // Pines DAC del ESP32 (Pines fijos para señales analógicas)
 const int DAC_X = 25; 
 const int DAC_Y = 26;
