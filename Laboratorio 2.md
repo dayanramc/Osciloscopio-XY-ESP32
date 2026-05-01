@@ -70,13 +70,15 @@ Los potenciómetros permiten modificar:
 - Tamaño del dibujo  
 - Velocidad de trazado  
 
----
- de trazado  
+## Evidencia 
+Imagen de la simulacion 
+<img width="1230" height="1279" alt="image" src="https://github.com/user-attachments/assets/82815204-b2c2-4ddb-b92c-a37429e2cec4" />
+
 
 ---
-
-## Código SIMULACION 
-
+## Códigos
+```cpp
+*CODIGO SIMULACION*
 
 const int X = 9;
 const int Y = 10;
@@ -95,9 +97,7 @@ void loop() {
   }
 }
 
-## Código ESP32  
-
-
+*CODIGO ESP32*
 // Pines DAC del ESP32 (Pines fijos para señales analógicas)
 const int DAC_X = 25; 
 const int DAC_Y = 26;
